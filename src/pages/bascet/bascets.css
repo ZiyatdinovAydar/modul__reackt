@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+.container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: #131313;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 65px;
+    padding: 56px 0 10px 290px;
+}
+
+.header__btn {
+    box-sizing: border-box;
+    width: 32px;
+    height: 32px;
+    background-color: #131313;
+    border: 1px solid #D58C51;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.header__btn :hover {
+    transform: rotate(180deg);
+}
+
+.header__img {
+    width: 15px;
+    height: 15px;
+}
+
+.header__title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.header__exit {
+    width: 200px;
+    height: 42px;
+    border: 1px solid #D58C51;
+    background-color: #131313;
+}
+
+.header__enter {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #D58C51;
+    text-decoration: underline #131313;
+
+}
+
+.basket__card {
+    padding: 0 0 100px 0;
+    height: calc(100vh - 600px);
+    overflow-x: auto;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    border-top: 1px solid #D58C51;
+    padding: 20px 290px 27px 290px;
+}
+
+.footer__price {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.footer__info {
+    display: flex;
+    gap: 15px;
+    align-items: flex-end;
+}
+
+.footer__check {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #D58C51;
+}
+
+.footer__btn {
+    width: 200px;
+    height: 42px;
+    background: #D58C51;
+}
+
+.footer__text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #131313;
+    text-decoration: underline #D58C51;
+}
